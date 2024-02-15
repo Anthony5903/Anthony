@@ -12,13 +12,14 @@
 }
 
 .navbar{
-    width: 1200px;
+    width: 2000px;
     height: 75px;
     margin: auto;
+    background-color: #000000;
 }
 
 .icon{
-    width: 200px;
+    width: 300px;
     float: left;
     height: 70px;
 }
@@ -35,6 +36,7 @@
 
 .menu{
     width: 400px;
+    margin-left:550px;
     float: left;
     height: 70px;
 }
@@ -68,7 +70,7 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 270px;
+    margin-left: 300px;
 }
 
 .srch{
