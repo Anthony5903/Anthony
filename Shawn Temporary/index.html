@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Shawn's Blogfolio 2.0</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="main">
@@ -27,7 +29,7 @@
                 <a href="#"> <button class="btn">Search</button></a>
             </div>
 
-        </div> 
+        </div>
         <div class="content">
             <h1>Hola, I'm <br><span>Shawn Anthony</span> <br>Course</h1>
             <p class="par">I am a dynamic individual with a curious and open-minded nature, <br>
@@ -40,31 +42,40 @@
                 those around me. My presence is engaging and inspiring,<br>
                 leaving a lasting impression on all who have the pleasure of knowing me.</p>
 
-                <button class="cn"><a href="#">Know More</a></button>
+            <button class="cn"><a href="#">Know More</a></button>
 
-                <div class="form">
-                    <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
-
-                    <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            <div class="form">
+                <h2>Send Me a Message!</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div class="contat-left-title">
+    
+                        
                     </div>
+                    <input type="hidden" name="access_key" value="ff03f23b-53e4-486f-bbdf-a24c5f5d2ce1">
+                    <input type="text" name="name" placeholder="Your Name Here" class="contact" required>
+                    <input type="text" name="email" placeholder="Your Email Here" class="contact" required>
+                    <textarea id="w3review" name="Message"placeholder="Your Message" class="contact"rows="4" cols="30"> </textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+                <div class="contact-right">
 
                 </div>
-                    </div>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
                 </div>
+
+            </div>
         </div>
+    </div>
+    </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
+
 </html>
