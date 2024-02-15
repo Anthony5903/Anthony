@@ -141,7 +141,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #f14500;
+    background: #eed9d0;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -178,15 +178,28 @@ ul li a:hover{
     border-radius: 10px;
     padding: 25px;
 }
-
+.contact {
+    margin-top: 20px;
+}
+.button{
+    width: 160px;
+    height: 40px;
+    background: #eed9d0;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
 .form h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: #ffffff;
     font-size: 22px;
-    background-color: #fff;
-    border-radius: 10px;
+    border-radius: 0px;
     margin: 2px;
     padding: 8px;
 }
